@@ -1,0 +1,121 @@
+body{
+    background-color: rgb(252, 252, 252);
+    background-image: linear-gradient(rgb(252, 252, 252), rgb(250, 198, 156));
+    height: 700px;
+}
+
+.page{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: solid black 1px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 3px 3px 0px 2px black;
+}
+
+header{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    box-shadow: 0px 24px 3px -24px rgb(255, 166, 0);
+}
+
+.title-image{
+    margin: 1px;
+    float: left;
+    width: 15%;
+}
+
+.title h1{
+    margin-bottom: 1px;
+    font-size: 3vw;
+    color: rgb(255, 142, 13);
+    text-shadow: 2px 1px 1px black ;
+}
+.title p{
+    margin-top: 1px;
+    font-size: 2vw;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 992px){
+    .page{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        border: solid black 1px;
+        border-radius: 10px;
+    }   
+
+    .title h1{
+        margin-bottom: 1px;
+        font-size: 3.5vw;
+    }
+    .title p{
+        margin-top: 1px;
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .page{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        border: solid black 1px;
+        border-radius: 10px;
+    }   
+
+    .title h1{
+        margin-bottom: 1px;
+        font-size: 3.5vw;
+    }
+    .title p{
+        margin-top: 1px;
+        font-size: 2vw;
+    }
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    box-shadow: 0px 24px 3px -24px rgb(255, 166, 0);
+}
+
+.artical{
+    margin-left: 25px;
+}
+
+footer p{
+    text-align: right;
+    margin-right: 25px;
+}
+
+.link{
+    color: rgb(209, 94, 28);
+}
+
+.link:hover{
+    color: blue;
+}
+
+.link-active{
+    color: rgb(44, 43, 38);
+}
+
+.link:active{
+    color: darkgreen;   
+}
+
+.detail li{
+    padding: 3px;
+}
